@@ -39,7 +39,7 @@ def most_popular_word(string):
 """
 Q3.
 
-The reserve ratio is the amount of each deposite that a bank must hold in
+The reserve ratio is the amount of each deposit that a bank must hold in
 its reserves. The remainer of the money may be loaned out. That is, if the 
 resever ratio is .2 then the bank may loan out (initial_value * .8). 
 The person who receives the loan can the deposite it in their bank, which keeps 20% 
@@ -58,6 +58,7 @@ Define a function named money_multiplier that:
 3. and returns the computed value 
 
 Assume the reserve ratio is locked at .2
+Hint: This is very similar to compound interest if that is easier for you to understand
 """
 
 def money_multiplier(value, n):
@@ -69,7 +70,7 @@ Q4.
 Write a function that given a list of integers
 will remove all duplicate integers from the list
 and return the list without duplicates.
-This function must be non_destructive.
+This function must be non-destructive.
 Add exception handling code in your function above, to handle
 unexpected values or types that may be passed in. The function 
 should return None when it receives None as the input_list
